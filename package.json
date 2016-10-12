@@ -1,0 +1,19 @@
+{
+  "name": "thetatutorial",
+  "version": "1.0.0",
+  "description": "This tutorial is to transmit 360 video from RICOH THETA via peerJS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cdra0624/thetaJsTutorial.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cdra0624/thetaJsTutorial/issues"
+  },
+  "homepage": "https://github.com/cdra0624/thetaJsTutorial#readme"
+}
