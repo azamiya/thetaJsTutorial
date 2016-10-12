@@ -19,4 +19,8 @@ $ npm start
 ### References ###
 [https://theta360.com/ja/support/manual/s/content/streaming/streaming_01.html](https://theta360.com/ja/support/manual/s/content/streaming/streaming_01.html) 
 
-[how to make 360 panorama view](http://qiita.com/kingpanda/items/1c3a47765b40d6d62f46)
+[How to make 360 panorama picture viewer](http://qiita.com/kingpanda/items/1c3a47765b40d6d62f46)
+
+[How to make 360 panorama movie viewer](http://qiita.com/kingpanda/items/7969c5248f0d21a99910)
+
+[Three js panorama movie sample](https://threejs.org/examples/?q=panorama#webgl_video_panorama_equirectangular)
