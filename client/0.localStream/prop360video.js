@@ -5,7 +5,7 @@ window.onload = function(){
 }
 
 function displayMyCamera(){
-    navigator.getUserMedia({audio: true, video: true}, function(stream){
-        document.getElementById("360video").src = URL.createObjectURL(stream);
-    }, function() { alert("Error!"); });
+	navigator.getUserMedia({audio: true, video: true}, function(stream){
+		document.getElementById("360video").src = URL.createObjectURL(stream);
+	}, function() { alert("Error!"); });
 }
