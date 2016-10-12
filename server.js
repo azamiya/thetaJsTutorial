@@ -9,6 +9,10 @@ function start(app, http) {
 	    res.sendFile(__dirname + "/docs/0.localStream/index.html")
 	});
 
+	app.get('/1.panoramaViewer', function(req, res) {
+	    res.sendFile(__dirname + "/docs/1.panoramaViewer/index.html")
+	});
+
 	http.listen(PORT, function(){
 	  console.log('Listen on ',PORT);
 	});
