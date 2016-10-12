@@ -17,6 +17,14 @@ function start(app, http) {
 	    res.sendFile(__dirname + "/docs/2.panoramaMovieSample/index.html")
 	});
 
+	app.get('/3.movieSampleFrom3js', function(req, res) {
+	    res.sendFile(__dirname + "/docs/3.movieSampleFrom3js/index.html")
+	});
+
+	app.get('/4.360moviePanoramaStream', function(req, res) {
+	    res.sendFile(__dirname + "/docs/4.360moviePanoramaStream/index.html")
+	});
+
 	http.listen(PORT, function(){
 	  console.log('Listen on ',PORT);
 	});

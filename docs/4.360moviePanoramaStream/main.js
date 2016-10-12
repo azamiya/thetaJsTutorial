@@ -1,3 +1,19 @@
+navigator.getUserMedia = navigator.getUserMedia || navigator.webkitGetUserMedia || navigator.mozGetUserMedia;
+
+window.onload = function(){
+    displayMyCamera();
+}
+
+var video = document.createElement( 'video' );
+
+
+function displayMyCamera(){
+	navigator.getUserMedia({audio: true, video: true}, function(stream){
+		//document.getElementById("360video").src = URL.createObjectURL(stream);
+		video.src = URL.createObjectURL(stream);
+	}, function() { alert("Error!"); });
+}
+
 var camera, scene, renderer;
 
 var texture_placeholder,
@@ -25,7 +41,7 @@ function init() {
 	var geometry = new THREE.SphereBufferGeometry( 500, 60, 40 );
 	geometry.scale( - 1, 1, 1 );
 
-	var video = document.createElement( 'video' );
+	//var video = document.createElement( 'video' );
 	video.width = 640;
 	video.height = 360;
 	video.loop = true;
