@@ -13,6 +13,10 @@ function start(app, http) {
 	    res.sendFile(__dirname + "/docs/1.panoramaViewer/index.html")
 	});
 
+	app.get('/2.360panoramaViewer', function(req, res) {
+	    res.sendFile(__dirname + "/docs/2.360panoramaViewer/index.html")
+	});
+
 	http.listen(PORT, function(){
 	  console.log('Listen on ',PORT);
 	});
