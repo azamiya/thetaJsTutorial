@@ -19,4 +19,4 @@ $ npm start
 ### References ###
 [https://theta360.com/ja/support/manual/s/content/streaming/streaming_01.html](https://theta360.com/ja/support/manual/s/content/streaming/streaming_01.html) 
 
-[http://qiita.com/kingpanda/items/1c3a47765b40d6d62f46](test)
+[how to make 360 image demo](http://qiita.com/kingpanda/items/1c3a47765b40d6d62f46)
