@@ -24,3 +24,5 @@ $ npm start
 [How to make 360 panorama movie viewer](http://qiita.com/kingpanda/items/7969c5248f0d21a99910)
 
 [Three js panorama movie sample](https://threejs.org/examples/?q=panorama#webgl_video_panorama_equirectangular)
+
+[THETA S で全天球映像を配信するまで(3) 映像を貼り付けて表示してみました](https://lab.infocom.co.jp/2016/01/theta-s-3.html)
